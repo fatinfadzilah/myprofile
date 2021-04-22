@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light grey">
+        <link rel="stylesheet" href="css/index.css">
+        <title>Profile</title>
+    </head>
+    <body>
+       
+<div class="header">
+  <h1>MY PROFILE</h1>
+</div>
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="profile.html">Profile</a>
+  <a href="Statistic.html">Statistic</a>
+</div>
+<section>
+  <nav>
+   <h2>About Me</h2>
+  
+    <img src="img/myprofile.png" alt="myprofile" width="200" height="250" >
+    <br/>
+     <p><h2>Fatin Nur Fadzilah Binti Aziz</h2></p>
+           <b>Age</b>
+             <li>23</li><br/>
+           <b>Call</b>
+            <li>+60137741998</li><br/> <!--PHONE NUMBER  -->
+           <b>Mail</b>
+            <li>Fatinfadzilah98@gmail.com</li><br/> <!-- EMAIL -->
+          <b>Home</b>
+            <li>Kulai,Johor</li> <!--  STATE AND COUNTRY  -->
+        </ul> 
+            
+    </ul>
+  </nav>
+  
+  <article>
+     <h2 > <img src="img/education.png" alt="education"> Education</h2>
+        <div >
+          <p><b>University Malaysia Terengganu</b></p>
+          <h5>2019-current</h5>
+        </div>
+        <div>
+          <p><b>Kolej Vokasional Perdagangan Johor Bahru </b></p>
+          <h5>2014-2017</h5>
+        </div>
+        <div >
+          <p><b>SMK Tunku Abdul Rahman Putra</b></p>
+          <h5>2011-2013</h5>
+        </div>
+  <hr>
+   <h2> <img src="img/work.png" alt="work"> Work Experience</h2>
+        <div class="company-wrapper clearfix">
+            <div class="experience-title">Nov FGS(Senai) Sdn Bhd</div> <!-- NAME OF THE COMPANY  -->
+          <div class="time">Julai 2018 - 2019</div> <!-- THE TIME WORK WITH THE COMPANY  -->
+        </div>
+        
+          <div class="experience-title">Data Entry Clerk in Logistic</div><br/> <!-- JOB TITLE  -->
+          <div class="company-description">
+            <b>Description</b>
+            <p>Reviewed and Processed  invoices,sales tax and purchase order ensuring the accuracy of all data in system.</p>  <!-- JOB DESCRIPTION  -->
+          </div>
+       <hr>
+       <h2><img src="img/ach.png" alt="Achievement"> Achievement</h2>
+        <div >
+          <p><b>Secretary General of SOHOR Club</b></p>
+          <h5>2020-2021</h5>
+        </div>
+        <div>
+          <p><b>Exco Publicity and Multimedia of SOHOR Club </b></p>
+          <h5>2019-2020</h5>
+        </div>
+        <div >
+          <p><b>Participant of LEVEL UP @Schools Game Development</b></p>
+          <h5>2016</h5>
+        </div>
+      </div>
+  </article>
+</section>
+
+</body>
+</html>
